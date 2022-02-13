@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body
+{
+  margin: 0;
+  position: relative; cursor: none;
+} 
+.block-1
+{
+  background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.block-2
+{
+  background:url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+}
+.block-3
+{
+  background:url('https://meta.vn/Data/image/2021/09/30/background-la-gi-anh-background-dep-15.jpg');
+} 
+.block-4
+{
+  background:url('https://mcdn.wallpapersafari.com/medium/35/26/uRnBF4.jpg');
+}
+.block-5
+{
+  background:url('https://i.pinimg.com/originals/6b/40/c3/6b40c3b6af8ebf4238f79898247d1d65.jpg');
+}
+.block-6
+{
+  background:url('https://c4.wallpaperflare.com/wallpaper/811/461/132/love-heart-red-red-love-hd-wallpaper-preview.jpg');
+}
+.block-7
+{
+  background:url('https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cGxlc3xlbnwwfHwwfHw%3D&w=1000&q=80');
+} 
+.block-8
+{
+  background:url('https://c1.wallpaperflare.com/preview/975/217/131/wedding-hand-sunset-love.jpg');
+}
+.block-9
+{
+  background:url('https://www.dmessages.com/wp-content/uploads/2019/12/Happy-Valentines-day-wishes.jpg');
+  background-position: unset !important ; 
+}
+
+.love-1,.love-2,.love-3
+{
+  position: absolute;
+  display: none;
+  background-image: url(./heart2.gif);
+  background-size: 100%; 
+  width: 200px;
+  height: 200px;
+}
+.muoazzz
+{
+  position: absolute;
+  display: none;
+  background-image: url(./muoazzz.gif);
+  background-size: 100%; 
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.block-image{
+  font-family: 'Dancing Script', cursive;
+  font-size:20px;
+  background-size:cover;
+  background-repeat:repeat;
+  background-position: bottom ;
+  color:#000;
+  height: 100vh;
+  width: 100vw; 
+  position: relative;
+}
+
+.block-image ul{ 
+  text-align: center;
+  margin:0;
+  padding:0;
+  padding-top: 100px;
+}
+
+.block-image li{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;
+}
+
+
+.block-image li:hover{
+  top:0px;
+  opacity:0.5; 
+}
+
+.block-image p{
+  margin: 0 0 0 0;
+} 
+
+.block-image.block-1 li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.block-image.block-1 li:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.block-image.block-1 li:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.block-image.block-1 li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+
+.block-image.block-5 li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.block-image.block-5 li:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.block-image.block-5 li:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.block-image.block-5 li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+
+
+
+.block-image.block-2 li:nth-child(1){
+  transform:rotate(345deg);
+}
+
+.block-image.block-2 li:nth-child(2){
+  transform:rotate(8deg);
+}
+
+.block-image.block-2 li:nth-child(3){
+  transform:rotate(355deg);
+}
+
+.block-image.block-2 li:nth-child(4){
+  transform:rotate(348deg);
+}
+
+
+
+.block-image.block-6 li:nth-child(1){
+  transform:rotate(345deg);
+}
+
+.block-image.block-6 li:nth-child(2){
+  transform:rotate(8deg);
+}
+
+.block-image.block-6 li:nth-child(3){
+  transform:rotate(355deg);
+}
+
+.block-image.block-6 li:nth-child(4){
+  transform:rotate(348deg);
+}
+
+
+.block-image.block-4 li:nth-child(1){
+  transform:rotate(10deg);
+}
+
+.block-image.block-4 li:nth-child(2){
+  transform:rotate(0deg);
+}
+
+.block-image.block-4 li:nth-child(3){
+  transform:rotate(-10deg);
+}
+
+.block-image.block-4 li:nth-child(4){
+  transform:rotate(20deg);
+}
+
+
+.block-image.block-8 li:nth-child(1){
+  transform:rotate(10deg);
+}
+
+.block-image.block-8 li:nth-child(2){
+  transform:rotate(0deg);
+}
+
+.block-image.block-8 li:nth-child(3){
+  transform:rotate(-10deg);
+}
+
+.block-image.block-8 li:nth-child(4){
+  transform:rotate(20deg);
+}
